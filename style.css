@@ -1,0 +1,281 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: white;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+    margin-inline: 7%;
+    gap: 8px;
+    align-items: center;
+    text-align: center;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    margin: auto;
+    gap: 32px;
+}
+
+.menu__navegacao{
+   display: flex;
+   flex-direction: row;
+   font-size: 16px;
+   color: #667085;
+
+}
+.logo{
+    margin: auto;
+}
+.botao{
+    display: flex;
+    gap: 28px;
+    align-items: center;
+
+}
+.botao__navegacao{
+    color: #667085;
+    
+}
+.red{
+    display: flex;
+    border: 2px solid #8E2424;
+    border-radius: 8px;
+    width: 122px;
+    height: 44px;
+    background-color:  #8E2424;;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    
+}
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 96px;
+    gap: 24px;
+}
+.cabecalho__subtitulo{
+    color: #8E2424;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+}
+.cabecalho__titulo{
+    color: #101828;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 60px;
+}
+.cabecalho__paragrafo{
+    color: #667085;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    width:35%;
+}
+.divisores{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 5%;
+    list-style-type: none;
+    gap: 7%
+}
+.divisores__projetos,
+.divisores__reviews,
+.divisores__downloads,
+.divisores__colaboradores{
+    width: 12%;
+    
+}
+.divisores__gap{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+.divisores__numeros{
+    font-size: 60px;
+    color: #8E2424;
+}
+.divisores__subtitulo{
+    font-size: 18px;
+    color: #101828;
+}
+.divisores__paragrafo{
+    font-size: 16px;
+    color: #667085;
+}
+.talentos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 96px;
+    text-align: center;
+}
+.talentos__menu{
+   display: flex;
+   flex-direction: column;
+    gap: 16px;
+}
+.talentos__subtitulo{
+    color: #8E2424;
+    font-size: 14px;
+}
+.talentos__titulo{
+    color: #101828;
+    font-size: 36px;
+}
+.talentos__paragrafo{
+    color: #667085;
+    font-size: 20px;
+}
+
+.talentos__image{
+    margin-top: 64px;
+}
+
+.vagas{
+    display: flex;
+    flex-direction: column;
+    margin-inline: 30%;
+    margin-top: 64px;
+    gap: 32px;
+}
+.design{
+    color: #101828;
+    font-size: 20px;
+    font-weight: 500
+}
+
+.vagas__trabalho{
+    color: #101828;
+    font-size: 18px;
+    font-weight: 500;
+    gap: 32px;
+}
+.cabecalho__salario{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.trabalho__salario{
+    display: flex;
+    flex-direction: row;
+    color: #667085;
+    font-size: 16px;
+    font-weight: 500;
+    gap: 24px;
+
+}
+
+.box{
+    border: 2px solid #EAECF0;
+    border-radius: 15px;
+    padding: 24px;
+}
+.sobre{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 404px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background: rgba(195.50, 25.25, 25.25, 0.03);
+    margin-top: 96px;
+    margin-block-end: 96px;
+    margin-inline: 18%;
+    border-radius: 16px;
+    gap: 20px;
+}
+.sobre__nos__colaboradores{
+    color: #8E2424;
+    font-size: 14px;
+}
+.sobre__nos__titulo{
+    color: #101828;
+    font-size: 36px;
+}
+.sobre__nos__cabecalho{
+    margin-top: 32px;
+}
+.sobre__nos__gap{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.sobre__nos__nome{
+    color: #101828;
+    font-size: 16px;  
+    margin-top: 16px;  
+}
+.sobre__nos__web{
+    color: #667085;
+    font-size: 14px;
+
+}
+.rodape{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 96px;
+}
+.rodape__cabecalho{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.rodape__texto{
+    color: #101828;
+    font-size: 36px
+}
+.rodape__vagas{
+    color: #667085;
+    font-size: 20px;
+}
+.rodape__botao{
+    display: flex;
+    margin-top: 40px;
+    gap: 16px;
+}
+.rodape__input{
+    border: 1px solid  #D0D5DD;
+    border-radius: 8px;
+    height: 34px;
+    width: 250px;
+}
+.botao__rodape{
+    display: flex;
+    border: 2px solid #8E2424;
+    border-radius: 8px;
+    width: 110px;
+    height: 34px;
+    background-color:  #8E2424;;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+.rodape__end{
+    margin-top: 32px;
+    color: #98A2B3;
+    font-size: 15px;
+    margin-block-end: 96px;
+}
